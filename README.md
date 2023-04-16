@@ -1,3 +1,4 @@
+Passer en view code est plus lisible.
 Un code de selfbot en javascript.
 Utilise Node.js.
 Utilise les modules "discord.js" et "discord-selfbot.js".
