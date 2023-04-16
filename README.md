@@ -2,6 +2,8 @@ Un code de selfbot en javascript qui
 utilise Node.js et
 utilise les modules "discord.js" et "discord-selfbot.js".
 
+⛔Utiliser un selfbot sur votre compte discord est interdit et peut mener à la fermeture de votre compte. Je ne suis pas résponsable de l'utilisation que vous en ferez.⛔
+
 Commandes :
 
   Spam
@@ -33,5 +35,3 @@ Commandes :
     
     
 Pour exécuter correctement les commandes, il faut les permissions associés (par exemple pour Ccreate la permission pour créer des salons).
-
-⛔Utiliser un selfbot sur votre compte discord est interdit. Je ne suis pas résponsable de l'utilisation que vous en ferez.⛔
