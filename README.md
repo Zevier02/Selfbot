@@ -4,7 +4,7 @@ Utilise les modules "discord.js" et "discord-selfbot.js".
 
 Commandes :
 
-  Spam : Permet de spam des messages.
+  Spam : Permet de spam des messages.\n
     Utilisation : prefixe + spam, [nombre de messages], [message]
     Exemple : !spam, 10, Bonjour
     
