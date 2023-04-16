@@ -33,3 +33,5 @@ Commandes :
     
     
 Pour exécuter correctement les commandes, il faut les permissions associés (par exemple pour Ccreate la permission pour créer des salons).
+
+⛔Utiliser un selfbot sur votre compte discord est interdit. Je ne suis pas résponsable de l'utilisation que vous en ferez.⛔
