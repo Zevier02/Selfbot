@@ -1,6 +1,10 @@
 Un code de selfbot en javascript qui
 utilise Node.js et
 utilise les modules "discord.js" et "discord-selfbot.js".
+Pour les installer, taper dans la console :
+``npm i discord.js``
+et
+``npm i discord-selbot.js-v13``
 
 ⛔Utiliser un selfbot sur votre compte discord est interdit et peut mener à la fermeture de votre compte. Je ne suis pas responsable de l'utilisation que vous en ferez.⛔
 
