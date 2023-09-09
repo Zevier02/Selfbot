@@ -15,9 +15,11 @@ npm i discord-selbot.js-v13
 Commandes :
 
   Spam
-     ``
-    Spam : Permet de spam des messages.
+    
+    ``Spam : Permet de spam des messages.
+    
     Utilisation : prefixe + spam, [nombre de messages], [message]
+    
     Exemple : !spam, 10, Bonjour
     ``
     
