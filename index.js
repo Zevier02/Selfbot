@@ -15,7 +15,7 @@ Client.on('ready', () => {
 //commandes
 Client.on("messageCreate", message => {
     //utilisateurs
-    if(message.author.id == "775831075850027088" || message.author.id == "801149848928780349" || message.author.id == "730388001451933718" || message.author.id == "802251999831523402" || message.author.id == "780097548936413244" || message.author.id == "872482417657675797" || message.author.id == "1085251109964226610" || message.author.id == "490200289152991244"){
+    if(){
         //spam
         if(message.content.startsWith(prefix + "spam")){
             message.delete().catch(err => {
@@ -87,4 +87,4 @@ Client.on("messageCreate", message => {
 });
 
 //connexion
-Client.login("NzgwMDk3NTQ4OTM2NDEzMjQ0.Gqd9_H.CaSQpa2axqxxIgPuZ6fhH0XJ2VR7N0BSRNMBAY");
+Client.login("Ton token ici");
