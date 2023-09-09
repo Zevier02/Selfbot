@@ -29,7 +29,7 @@ Commandes :
     
   Ghostmsg
     
-    Ghostmsg : Permet d'envoyer un message det de le supprimer juste après (spammable avec Spam).
+    Ghostmsg : Permet d'envoyer un message et de le supprimer juste après (spammable avec Spam).
     Utilisation : prefixe + ghostmsg [message]
     Exemple : !ghostmsg Salut
     
