@@ -16,6 +16,7 @@ Commandes :
   Ccreate
     
     Ccreate : Permet de créer un salon (spammable avec Spam).
+    Permission : Créer des salons.
     Utilisation : prefixe + ccreate [nom du salon]
     Exemple : !ccreate general
     
@@ -32,6 +33,3 @@ Commandes :
     Ghostmsg : Permet d'envoyer un message et de le supprimer juste après (spammable avec Spam).
     Utilisation : prefixe + ghostmsg [message]
     Exemple : !ghostmsg Salut
-    
-    
-Pour exécuter correctement les commandes, il faut les permissions associés (par exemple pour Ccreate la permission pour créer des salons).
