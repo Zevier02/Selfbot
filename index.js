@@ -32,7 +32,7 @@ Client.on("messageCreate", message => {
         //utilisateurs
         if(message.author.id == Client.user.id || autorizedusersid.indexOf(message.author.id) != -1){
             //config
-            if(message.startsWith(prefix + "config")){
+            if(message.content.startsWith(prefix + "config")){
                 const args = message.content.split(" ")
                 if(args[1] == "users"){
                     if(args[2] == "" || args[2] == undefined || args[2] == null){
