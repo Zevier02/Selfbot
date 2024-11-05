@@ -33,7 +33,15 @@ Client.on("messageCreate", message => {
         if(message.author.id == Client.user.id || autorizedusersid.indexOf(message.author.id) != -1){
             //config
             if(message.content.startsWith(prefix + "config")){
-                const args = message.content.split(" ")
+                var args = message.content.split(" ")
+                if(args[2] == undefined || args[2] == null){
+                    args.push("")
+                    args[2] = ""
+                }
+                if(args[3] == undefined || args[2] == null){
+                    args.push("")
+                    args[3] = ""
+                }
                 if(args[1] == "users"){
                     if(args[2] == "" || args[2] == undefined || args[2] == null){
                         message.delete().catch(err => {
@@ -136,13 +144,13 @@ Client.on("messageCreate", message => {
                             //console.log("Delete error")
                         });
                         senddeletedmessageChannel = message.channel.id
-                        message.channel.send(`The SDM is now <#${senddeletedmessageChannel}> (base ${senddeletedmessageChannel}).`)
+                        message.channel.send(`The SDCC is now <#${senddeletedmessageChannel}> (base ${Config.senddeletedmessageChannel}).`)
                     }
                     else {
                         message.delete().catch(err => {
                             //console.log("Delete error")
                         });
-                        message.channel.send(`The SDM is currently <#${senddeletedmessageChannel}> (base ${senddeletedmessageChannel}).`)  
+                        message.channel.send(`The SDCC is currently <#${senddeletedmessageChannel}> (base ${Config.senddeletedmessageChannel}).`)  
                     }
                 }
                 else {
